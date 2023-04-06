@@ -107,11 +107,10 @@ h1 {
 }
 .toggler {
   height: 220px;
-  background: gray;
   display: flex;
+  position: relative;
 }
 .toggler_buttons {
-  background: purple;
   width: 800px;
   margin-left: 40px;
   display: flex;
@@ -123,8 +122,14 @@ h1 {
   background: none;
   display: flex;
   align-items: center;
+  justify-content: center;
   position: relative;
   padding: 0 10px 0 10px;
+}
+.owl_Image {
+  position: absolute;
+  left: -42px;
+  bottom: -134px;
 }
 .border-gradient {
   border: 10px solid;
@@ -164,4 +169,100 @@ h1 {
   bottom: -5px;
   left: 0;
 }
-/*йййй*/
+.category_buttons {
+  margin: 39px 0 0 40px;
+}
+.category_buttons button {
+  position: relative;
+  padding: 18px;
+  border: none;
+  height: 50px;
+  margin: 0 20px 20px 0;
+  border-radius: 6px;
+  box-shadow: red 0 0 5px;
+  background: white;
+  font-weight: 500;
+  line-height: 17px;
+  font-size: 14px;
+  z-index: 2;
+}
+.category_buttons button:before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(-45deg, #2D7DD2 0%, #97CC04 100% );
+  transform: translate3d(0px, 20px, 0) scale(0.95);
+  filter: blur(20px);
+  opacity: var(0.7);
+  transition: opacity 0.3s;
+  border-radius: inherit;
+  z-index: 1;
+}
+
+.category_buttons button::after {
+  content: "Привет";
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  border-radius: inherit;
+}
+.youtube_block {
+  position: relative;
+}
+.youtube_block iframe {
+  display: block;
+  margin: 220px auto 0;
+  height: 436px;
+  width: 780px;
+  border-radius: 20px;
+  z-index: 2;
+  position: relative;
+}
+.vector_block_Image {
+  position: absolute;
+  bottom: 14px;
+  left: -70px;
+}
+.vector_block_Image2 {
+  position: absolute;
+  bottom: 150px;
+  left: 884px;
+}
+.vector_block_Image3 {
+  position: absolute;
+  bottom: 380px;
+  left: 100px;
+}
+.vector_block_Image4 {
+  position: absolute;
+  bottom: -167px;
+  right: 46px;
+}
+.content2_text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  margin-top: 114px;
+  z-index: 2;
+}
+.counter {
+  display: flex;
+  margin-top: 52px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+}
+.counter>div {
+  width: 318px;
+}
+.counter>div>img {
+  margin-bottom: 25px;
+}
