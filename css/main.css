@@ -51,12 +51,117 @@ header button {
   top: -3px;
 }
 .section-1 {
-  background-color: red;
   height: 480px;
+  background-image: url("../img/background_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .content-1 {
   width: 1180px;
   height: 100%;
   margin: 0 auto;
-
+  padding-top: 125px;
+  position: relative;
 }
+h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  margin-top: 3px;
+  color: white;
+}
+.title_content_1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  margin-top: 25px;
+  color: white;
+}
+.title_content_2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 40px;
+  color: white;
+}
+.vector_1Image {
+  position: absolute;
+  bottom: -15px;
+  left: -216px;
+}
+.vector_2Image {
+  position: absolute;
+  bottom: -47px;
+  left: 1165px;
+}
+.section-2 {
+  height: 2190px;
+  background: #E5E5E5;
+  padding-top: 100px;
+}
+.content-2 {
+  width: 1180px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.toggler {
+  height: 220px;
+  background: gray;
+  display: flex;
+}
+.toggler_buttons {
+  background: purple;
+  width: 800px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.toggler_buttons button {
+  width: 190px;
+  height: 70px;
+  background: none;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0 10px 0 10px;
+}
+.border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+}
+.border-gradient-green {
+  border-image-source: linear-gradient(to left, #27AAE1, #F7941D);
+}
+.only-top {
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+}
+.toggler_buttons button p {
+  font-size: 12px;
+  line-height: 14.6px;
+}
+.infinity {
+  font-size: 16px;
+  position: relative;
+  bottom: -2px;
+}
+.toggler_text {
+  text-align: left;
+  font-weight: 700;
+  margin: 25px 0 0 15px;
+}
+.toggler_text p {
+  font-weight: 400;
+}
+.hr {
+  width: 880px;
+  height: 1px;
+  background: red;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+/*йййй*/
