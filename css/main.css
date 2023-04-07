@@ -266,3 +266,137 @@ h1 {
 .counter>div>img {
   margin-bottom: 25px;
 }
+.november_25 {
+  height: 160px;
+  border-radius: 20px;
+  background: #F6BC75;
+  display: flex;
+  align-items: center;
+  padding: 30px 40px;
+  margin-top: 82px;
+  color: black;
+}
+.date {
+  font-weight: 700;
+  font-size: 98px;
+  margin-top: -39px;
+}
+.november {
+  font-weight: 500;
+  font-size: 29px;
+  margin-top: -36px;
+}
+.doors {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 26px;
+  margin-left: 53px;
+}
+.welcome {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 32px;
+  width: 530px;
+}
+.november_25 button {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+  display: inline-block;
+  margin-left: auto;
+  border-radius: 10px;
+  background: none;
+  width: 222px;
+  height: 60px;
+  border: 2px solid black;
+}
+.information_IT {
+  height: 460px;
+  display: flex;
+  margin-top: 20px;
+}
+.programs {
+  background: #C5DDFF;
+  height: 460px;
+  width: 480px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 33px 40px;
+}
+.news_academy {
+  background: #B8EFCF;
+  width: 330px;
+  height: 220px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 33px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+}
+.news_academy img {
+  margin-bottom: 46px;
+}
+.it {
+  background: #FFEEF6;
+  width: 330px;
+  height: 220px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 33px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  margin-left: 20px;
+}
+.it img {
+  margin-bottom: 46px;
+}
+.try {
+  background: #FFE38E;
+  width: 680px;
+  height: 220px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 80px 0 50px;
+  margin: 20px 0 0 20px;
+}
+.news_IT {
+  display: flex;
+  margin-left: 20px;
+}
+.programs_study {
+  margin-top: 37px;
+  margin-bottom: 41px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+}
+.programs button {
+  margin-top: 49px;
+  background: none;
+  width: 222px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.try_text {
+  margin-left: 55px;
+}
+.try_2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
