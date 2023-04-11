@@ -188,7 +188,6 @@ h1 {
   height: 50px;
   margin: 0 20px 20px 0;
   border-radius: 6px;
-  box-shadow:  0 0 5px;
   background: white;
   font-weight: 500;
   line-height: 17px;
@@ -451,9 +450,12 @@ h1 {
 }
 *::-webkit-scrollbar-track {
   background: #FFFFFF;
+  margin-right: 22vw;
+  margin-left: 22vw;
 }
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(to left, #27AAE1, #F7941D);
+
 }
 
 .media-group {
@@ -567,4 +569,58 @@ h1 {
 .xod_item {
   width: 280px;
 }
+footer {
+  background: #00093C;
+  height: 560px;
+}
+.contacts {
+  padding-top: 140px;
+}
+footer > div {
+  width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.contacts p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+  color: white;
+}
+/*Переделать Number*/
+.number {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: white;
+  /*display: none;*/
+  margin-top: 43px ;
+}
+.contacts p:last-child {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #BDBDBD;;
+  margin-top: 30px;
+}
+.contacts div {
+  margin-top: 38px;
+  width: 175px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_title {
+  color: white;
+  margin-top: 80px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+}
+.footer_title p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 34px;
+}
+
 
