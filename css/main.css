@@ -572,6 +572,7 @@ h1 {
 footer {
   background: #00093C;
   height: 560px;
+  position: relative;
 }
 .contacts {
   padding-top: 140px;
@@ -581,6 +582,7 @@ footer > div {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 .contacts p {
   font-weight: 500;
@@ -607,12 +609,11 @@ footer > div {
 .contacts div {
   margin-top: 38px;
   width: 175px;
-  display: flex;
-  justify-content: space-between;
 }
 .footer_title {
   color: white;
   margin-top: 80px;
+  margin-bottom: 16px;
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
@@ -620,7 +621,89 @@ footer > div {
 .footer_title p {
   font-weight: 400;
   font-size: 14px;
-  line-height: 34px;
+  margin-bottom: 10px;
+}
+.send_information {
+  width: 1180px;
+  height: 270px;
+  background: white;
+  border-radius: 20px;
+  position: absolute;
+  top: -230px;
+  left: 0;
+  display: flex;
+  padding: 40px;
+}
+.border_owl {
+  width: 690px;
+  height: 290px;
+  position: relative;
+  bottom: 4px;
+  left: -54px;
+}
+.owl {
+  position: absolute;
+  top: -9px;
+  left: -36px;
+}
+.owl_info {
+  position: absolute;
+  top: 2px;
+  right: -7px;
+}
+.form {
+  width: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.form_post {
+  display: flex;
+  height: 56px;
+  align-items: center;
+  justify-content: space-between;
+}
+.form_post p {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  width: 210px;
+  position: relative;
+  top: 9px;
+}
+.form_post button {
+  width: 210px;
+  height: 50px;
+  background: #F7941D;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  color: white;
+}
+.form_name {
+  width: 440px;
+  height: 50px;
+  background: rgba(0, 9, 60, 0.1);
+  border-radius: 6px;
+  padding: 15px 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+.form_number {
+  width: 210px;
+  height: 50px;
+  background: rgba(0, 9, 60, 0.1);
+  border-radius: 6px;
+  padding: 15px 20px;
+}
+.form_email {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
 }
 
 
