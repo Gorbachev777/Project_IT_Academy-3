@@ -15,7 +15,6 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
 
   <meta name="theme-color" content="#fafafa">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -35,15 +34,34 @@
       <div class="logo">
         <img src="./img/logo.svg" alt="logo"/>
       </div>
-      <button><img src="./img/equals.svg" class="equalsImg" alt="equals"/>Все курсы</button>
+      <div class="dropdown">
+        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <img src="./img/equals.svg" class="equalsImg" alt="equals"/>
+          <span class="course">Все курсы</span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Робототехника</a></li>
+          <li><a class="dropdown-item" href="#">Создание игр</a></li>
+          <li><a class="dropdown-item" href="#">Web-разработка</a></li>
+          <li><a class="dropdown-item" href="#">Мультимедиа</a></li>
+          <li><a class="dropdown-item" href="#">Шахматы</a></li>
+          <li><a class="dropdown-item" href="#">3D-моделирование и дизайн</a></li>
+          <li><a class="dropdown-item" href="#">Английский язык</a></li>
+          <li><a class="dropdown-item" href="#">Блогинг</a></li>
+          <li><a class="dropdown-item" href="#">Soft skills</a></li>
+        </ul>
+      </div>
+
+      <!--      <button>-->
+<!--        <img src="./img/equals.svg" class="equalsImg" alt="equals"/>Все курсы</button>-->
       <button>Мероприятия</button>
       <button>Базы знаний</button>
       <button>Карьера</button>
       <div class="dropdown">
         <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
           <img src="./img/point.svg" class="point" alt="point"/>
-          <!--        Заменить стрелочку-->
           <span class="country">Нижний Новгород</span>
+          <img src="./img/Vector20.svg" alt="" class="vector20"/>
         </button>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="#">Москва</a></li>
@@ -60,9 +78,9 @@
     <div class="content-1">
       <img src="./img/Vector_1.png" class="vector_1Image" alt="vector1"/>
       <img src="./img/Vector_2.png" class="vector_2Image" alt="vector2"/>
-      <h1>Образовательная платформа</h1>
-      <p class="title_content_1">ХОД Future Academy</p>
-      <p class="title_content_2">Актуальные знания для новичков и профессионалов</p>
+      <h1>Образовательная платформа</h1><br>
+      <span class="title_content_1">ХОД Future Academy</span><br>
+      <span class="title_content_2">Актуальные знания для новичков и профессионалов</span>
     </div>
   </section>
   <section class="section-2">
@@ -174,7 +192,7 @@
   <section class="section-3">
     <div class="reviews">
       <img src="./img/Vector_1.png" class="vector_3Image" alt="vector3"/>
-      <h1 class="reviews_students">Отзывы наших студентов</h1>
+      <div class="reviews_students">Отзывы наших студентов</div>
       <div class="media-scroller snaps-inline">
         <div class="media-element">
           <div class="name_photo">
@@ -324,6 +342,80 @@
             <img src="./img/star.svg" alt="star"> 4,87 / 5
           </div>
         </div>
+        <div class="media-element">
+          <div class="name_photo">
+            <img src="./img/photo_1.png" alt="photo">
+            <div class="student_information">
+              <div class="family">Имя Фамилия</div>
+              <div class="student">Студент курса «WEB-разработчик»</div>
+            </div>
+          </div>
+          <div class="student_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique
+            lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius.
+          </div>
+          <div class="star">
+            <img src="./img/star.svg" alt="star"> 4,87 / 5
+          </div>
+        </div>
+        <div class="media-element">
+          <div class="name_photo">
+            <img src="./img/photo_1.png" alt="photo">
+            <div class="student_information">
+              <div class="family">Имя Фамилия</div>
+              <div class="student">Студент курса «WEB-разработчик»</div>
+            </div>
+          </div>
+          <div class="student_text">
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias eligendi et ex itaque nobis
+              non
+              quasi, velit. Aperiam atque beatae consequuntur harum ipsa nam non nostrum praesentium quam veniam.
+            </div>
+            <div>Dicta non numquam odio officia pariatur perspiciatis, provident quam soluta totam. A rerum sunt ullam
+              ut veniam vero vitae!
+            </div>
+          </div>
+          <div class="star">
+            <img src="./img/star.svg" alt="star"> 4,87 / 5
+          </div>
+        </div>
+        <div class="media-element">
+          <div class="name_photo">
+            <img src="./img/photo_1.png" alt="photo">
+            <div class="student_information">
+              <div class="family">Имя Фамилия</div>
+              <div class="student">Студент курса «WEB-разработчик»</div>
+            </div>
+          </div>
+          <div class="student_text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique
+            lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius.
+          </div>
+          <div class="star">
+            <img src="./img/star.svg" alt="star"> 4,87 / 5
+          </div>
+        </div>
+        <div class="media-element">
+          <div class="name_photo">
+            <img src="./img/photo_1.png" alt="photo">
+            <div class="student_information">
+              <div class="family">Имя Фамилия</div>
+              <div class="student">Студент курса «WEB-разработчик»</div>
+            </div>
+          </div>
+          <div class="student_text">
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias eligendi et ex itaque nobis
+              non
+              quasi, velit. Aperiam atque beatae consequuntur harum ipsa nam non nostrum praesentium quam veniam.
+            </div>
+            <div>Dicta non numquam odio officia pariatur perspiciatis, provident quam soluta totam. A rerum sunt ullam
+              ut veniam vero vitae!
+            </div>
+          </div>
+          <div class="star">
+            <img src="./img/star.svg" alt="star"> 4,87 / 5
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -373,7 +465,7 @@
     <div>
       <div class="contacts">
         <img src="./img/footer_logo.svg" alt="logo">
-        <p class="number">8 800 950-33-98</p>
+        <div class="number">8 800 950-33-98</div>
         <p>г. Москва, ул. Ленина, д. 50</p>
         <p>info@hodfutureacademy.ru</p>
         <div>
@@ -434,22 +526,24 @@
         <p>Карьера</p>
         <p>Контакты</p>
       </div>
+      <form action="https://formsubmit.co/g4704611@yandex.ru" method="POST"/>
       <div class="send_information">
         <div class="border_owl">
           <img class="owl" src="./img/owl.png" alt="owl";>
           <img class="owl_info" src="./img/information_owl.png" alt="";>
         </div>
         <div class="form">
-          <div><input class="form_name" type="text" placeholder="Ваше имя"></div>
-          <div class="form_email"><input class="form_number" type="text" placeholder="Ваш телефон"><input class="form_number" type="text" placeholder="Ваш e-mail"></div>
+          <div><input class="form_name" type="text" name="name" placeholder="Ваше имя"></div>
+          <div class="form_email"><input class="form_number" type="text" name="phone" placeholder="Ваш телефон"><input class="form_number" type="email" name="email" placeholder="Ваш e-mail"></div>
           <div class="form_post">
           <p>Нажимая на кнопку, я соглашаюсь
             на обработку персональных данных
             и с правилами пользования<br> Платформой</p>
-          <button>Отправить</button>
+          <button type="submit">Отправить</button>
           </div>
         </div>
       </div>
+      </form>
     </div>
   </footer>
 
